@@ -1,0 +1,204 @@
+@-moz-document domain("last.fm") {
+.main-content, .content-top-has-nav .content-top, .header--overview,
+.full-bleed-ad-container, .sidebar-ad-container,
+.two-column-layout .container, .adaptive-skin-container,
+.adaptive-skin-container .container,
+.adaptive-skin-container .container--full-width,
+.adaptive-skin-container .content-top,
+.recs-feed .context {
+    background: #000;
+    box-shadow: none;
+}
+
+.user-dashboard-layout--version-4 .tag-label,
+.header-new--track .header-new-inner--without-image {
+    background: #080;
+}
+
+.header-metadata .header-metadata-title,
+.footer .mimic-link, .footer .footer-legal, .footer a,
+.chartlist-timestamp,
+.metadata-title, .user-list-link, .user-list-link:focus,
+.user-list-link:hover, .auth-dropdown-item-secondary,
+.play-this-track-playlink--disabled:hover,
+.resource-external-link:focus, .resource-external-link:hover,
+.play-this-track-playlink, .shout-user a {
+    color: #0a0;
+}
+
+.container, .footer, .subscribe-cta {
+    background-color: #000;
+}
+
+.chartlist-album a, .chartlist-album a:focus, .chartlist-album a:hover,
+.chartlist-artist a, .chartlist-artist a:focus, .chartlist-artist a:hover,
+.chartlist-name a, .chartlist-name a:focus, .chartlist-name a:hover,
+.header-metadata .header-metadata-display a,
+.secondary-nav-item-link,
+.stationlink-list .stationlink,
+.masthead-nav .masthead-nav-control,
+.inbox-notifications .inbox-notifications__item-link, .footer,
+.footer .footer-language--active,
+.footer-timezone strong,
+.btn-labs-homepage .btn-lab-title,
+.homefeed .content-top .secondary-nav-item-link--active,
+.homefeed .content-top .secondary-nav-item-link--active:focus,
+.homefeed .content-top .secondary-nav-item-link--active:hover,
+.quick-fact-row,
+.user-dashboard-layout--version-4 .header-metadata .header-metadata-title,
+.user-dashboard-layout--version-4 .header-metadata-display,
+.library-controls .secondary-nav .secondary-nav-item-link--active,
+.library-controls .secondary-nav .secondary-nav-item-link--active:focus,
+.library-controls .secondary-nav .secondary-nav-item-link--active:hover,
+.anhv1 .auth-dropdown-menu-item,
+.masthead-nav .masthead-nav-control:focus,
+.masthead-nav .masthead-nav-control:hover,
+.play-this-track-playlink--disabled,
+.resource-external-link, .shout-timestamp,
+.play-this-track-playlink:focus, .play-this-track-playlink:hover {
+    color: #48ac48;
+}
+
+.chartlist-count-bar-link, a .chartlist-count-bar-value {
+    color: #000;
+}
+
+.chartlist-row:hover, .secondary-nav-item-link--active:after, a.secondary-nav-item-link:focus:after,
+a.secondary-nav-item-link:hover:after, .chartlist-row--now-scrobbling,
+body:not(.js-focus-visible) body:not([data-whatinput=touch]) .masthead-search-submit:focus, 
+body:not([data-whatinput=touch]) .masthead-search-submit .focus-visible, 
+body:not([data-whatinput=touch]) .masthead-search-submit:hover {
+    background-color: #050;
+}
+
+a:focus .chartlist-count-bar-slug, a:hover .chartlist-count-bar-slug,
+.section-with-separator:after, .header-new-bookmark-button,
+.header-new-download-button, .header-new-love-button,
+.header-new-more-button, .chartlist-row--highlight,
+.masthead-search-submit, .masthead-search-submit:focus, 
+.masthead-search-submit:hover, .header-new-playlink,
+.track-overview-video-column .video-preview-playlink .image-overlay-playlink-link:focus:before, 
+.track-overview-video-column .video-preview-playlink .image-overlay-playlink-link:hover:before {
+    background-color: #0a0;
+}
+
+.chartlist-play-button:before, .btn-primary, .btn-secondary,
+.stationlink-list .stationlink:before, .chartlist-count-bar-slug,
+.inbox .inbox-buttons .inbox-compose-button, .no-data-message-button,
+body:not(.js-focus-visible) body:not([data-whatinput=touch]) .subscribe-cta a:focus,
+body:not([data-whatinput=touch]) .subscribe-cta a .focus-visible,
+body:not([data-whatinput=touch]) .subscribe-cta a:hover, .subscribe-cta a,
+.stationlink-list .stationlink:focus:before, .stationlink-list .stationlink:hover:before,
+.listening-report-cta-container--upsell .listening-report-cta-button,
+body:not(.js-focus-visible) body:not([data-whatinput=touch]) .btn-primary:focus,
+body:not([data-whatinput=touch]) .btn-primary .focus-visible,
+body:not([data-whatinput=touch]) .btn-primary:hover, .btn-subscribe,
+.gallery-preview-cta, .video-preview-upload-cta,
+.video-preview-upload-cta:not(.cta--inactive):focus,
+.video-preview-upload-cta:not(.cta--inactive):hover,
+body:not([data-whatinput=touch]) .header-new-more-button:hover,
+body:not(.js-focus-visible) body:not([data-whatinput=touch]) .header-new-bookmark-button:focus, body:not(.js-focus-visible) body:not([data-whatinput=touch]) .header-new-download-button:focus, body:not(.js-focus-visible) body:not([data-whatinput=touch]) .header-new-love-button:focus, body:not(.js-focus-visible) body:not([data-whatinput=touch]) .header-new-more-button:focus, body:not([data-whatinput=touch]) .header-new-bookmark-button .focus-visible, body:not([data-whatinput=touch]) .header-new-bookmark-button:hover, body:not([data-whatinput=touch]) .header-new-download-button .focus-visible, body:not([data-whatinput=touch]) .header-new-download-button:hover, body:not([data-whatinput=touch]) .header-new-love-button .focus-visible, body:not([data-whatinput=touch]) .header-new-love-button:hover, body:not([data-whatinput=touch]) .header-new-more-button .focus-visible, body:not([data-whatinput=touch]) .header-new-more-button:hover, body:not([data-whatinput=touch]) .header-new-playlink:hover, .track-overview-video-column .video-preview-playlink .image-overlay-playlink-link:before {
+    background-color: #080;
+    color: #000;
+}
+
+.text-colour-link, .text-colour-link:focus, .text-colour-link:hover,
+.content-form legend, .quick-fact-comparison-text, .stationlink-list .stationlink:focus,
+.stationlink-list .stationlink:hover, .metadata-and-wiki-row .catalogue-metadata .catalogue-metadata-heading,
+.dropdown-menu-clickable-button:focus, .dropdown-menu-clickable-button:hover {
+    color: #080;
+}
+
+button, input, optgroup, select, textarea, h1, h2, h3, p, a, label {
+    color: #48ac48;
+}
+
+.header--overview, .header--sub-page {
+    color: #48ac48;
+    height: auto;
+    margin-top: 0
+}
+
+.featured-item-heading-link, .free-description, .dropdown-menu-clickable-button, .chartlist--with-index .chartlist-index,
+.footer .footer-heading, .recs-feed .context, .quick-fact-title, .user-dashboard-layout--version-4 .listening-report-highlight-comparison,
+.user-dashboard-layout--version-4 .listening-report-brick-item-scrobbles, .auth-dropdown-menu-item {
+    color: #0a0;
+}
+
+.header-scrobble-since, .header-title-display-name, .auth-dropdown-menu-item.auth-dropdown-pro-text {
+    color: #0f0;
+}
+
+.promo-v3 .listening-report-promo-title, .report-box-container, .js .date-range-picker-button {
+    color: #48ac48;
+}
+.promo-v3 .listening-report-promo, .promo-v3 .listening-report-promo:focus, .promo-v3 .listening-report-promo:hover {
+    background-color: #fff0;
+    border: 1px solid #48ac48;
+    color: #48ac48;
+}
+
+.catalogue-tags .tag a, .catalogue-tags .tags-add, .catalogue-tags .tags-add-cta {
+    color: #0a0;
+    box-shadow: inset 0 0 0 1px #0a0;
+}
+
+body:not([data-whatinput=touch]) .catalogue-tags .tag a:hover, body:not([data-whatinput=touch]) .catalogue-tags .tags-add:hover {
+    color: #0f0;
+    box-shadow: inset 0 0 0 1px #0f0;
+}
+
+.content-top-has-nav .content-top:after {
+    border: 1px solid #48ac48;
+}
+
+.chartlist-break:after, .chartlist-row:after, .stationlink-list .stationlink:after, .play-this-track-playlink:after {
+    border-bottom: 1px solid #080;
+}
+
+.content-form .form-control, .content-form input[type=date], .content-form input[type=email], .content-form input[type=number], .content-form input[type=password], .content-form input[type=text], .content-form input[type=url], .content-form select, .content-form textarea, .content-form textarea:focus, .btn-shortcut {
+    color: #48ac48;
+    border: 1px solid #eee0;
+    box-shadow: none;
+    background-color: #0a08;
+}
+
+.alert-warning {
+    background-color: #050;
+    color: #48ac48;
+}
+
+.recs-feed .recs-feed-playlink:before,
+.featured-item-art .image-overlay-playlink-link:before {
+    background-color: hsl(120, 100%, 33%);
+}
+
+/*Reports page*/
+.report-box-container--overview {
+    background: #040;
+}
+.top-item-overview--artist,
+.user-dashboard-layout--version-4 .listening-report-top-item-wrap--version-3 .listening-report-top-item--artist .listening-report-top-item-badge {
+    background: #6f6;
+}
+.top-item-overview--album,
+.user-dashboard-layout--version-4 .listening-report-top-item-wrap--version-3 .listening-report-top-item--album .listening-report-top-item-badge {
+    background: #4c4;
+}
+.top-item-overview--track,
+.user-dashboard-layout--version-4 .listening-report-top-item-wrap--version-3 .listening-report-top-item--track .listening-report-top-item-badge {
+    background: #2a2;
+}
+
+/*Library page*/
+g > text {
+    fill: rgb(0 255 0) !important;
+}
+
+svg > rect {
+    fill: #0000;
+}
+g > a > rect {
+    fill: rgba(0, 150, 0, 0.5);
+}
+}
